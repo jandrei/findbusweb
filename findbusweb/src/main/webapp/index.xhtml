@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+	
+	<h:form>
+        <p:messages showDetail="true" severity="info,error,warn" showIcon="true" />
+        
+		<h:outputLabel value="Mensagem = "/>
+        <p:inputText value="#{homeMB.mensagem}"/>
+        <p:commandButton value="Enviar" action="#{homeMB.action}"/>
+        <br/>
+        <br/>
+        <h:outputText value="#{homeMB.getVariaveisAmbiente()}" escape="false"/>
+        
+	</h:form>
+
+</ui:composition>
