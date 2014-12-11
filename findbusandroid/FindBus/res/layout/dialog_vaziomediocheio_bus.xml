@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/informacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/itens"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/rbVazio"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Vazio" />
+
+            <RadioButton
+                android:id="@+id/rbMedio"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Médio" />
+
+            <RadioButton
+                android:id="@+id/rbCheio"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Cheio" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btOK"
+                style="@style/button_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnCancelar"
+                style="@style/button_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancelar" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

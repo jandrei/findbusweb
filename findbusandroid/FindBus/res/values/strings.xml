@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FindBus</string>
+    <string name="ache_bus">Ache seu ônibus aqui!</string>
+    <string name="action_settings">Settings</string>
+    <string name="telaExemploMapa1">Mapa mostra paradas</string>
+    <string name="telaPesquisaStops">Tela pesquisa Stops</string>
+    <string name="importarStops">Importar Stops</string>
+    <string name="telaPesquisaRoutes">Pesquisar  Routes</string>
+    <string name="importarRoutes">Importar Routes</string>
+    <string name="action_importar">Importar</string>
+    <string name="search_title">Pesquisar ônibus</string>
+    <string name="pesquisa_onibus">Pesquisar ônibus</string>
+    <string name="title_activity_abas_teste">AbasTeste</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
